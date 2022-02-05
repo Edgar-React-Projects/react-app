@@ -1,0 +1,66 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Jhon",
+        "label": "Fisrt Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Doe",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "jhondoe@gmail.com",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "validEmail"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "role",
+        "label": "Pick your role",
+        "value": "",
+        "options": [
+            {
+                "id": 1,
+                "label": "Admin"
+            },
+            {
+                "id": 2,
+                "label": "User"
+            }
+        ],
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }
+]
